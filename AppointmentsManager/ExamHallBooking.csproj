@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -37,6 +37,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ExamHallBooking.DataAccess\ExamHallBooking.DataAccess.csproj" />
+    <ProjectReference Include="..\ExamHallBooking.Model\ExamHallBooking.Model.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ExamHallBooking.DataAccess.Data.Models;
+using ExamHallBooking.Model.Models;
 using ExamHallBooking.DataAccess;
 
 
-using ExamHallBooking.DataAccess.Data.Models;
+using ExamHallBooking.Model.Models;
 
 namespace AppointmentsManager.Controllers
 {

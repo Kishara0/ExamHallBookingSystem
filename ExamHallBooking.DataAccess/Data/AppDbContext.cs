@@ -1,5 +1,6 @@
 ﻿
-using ExamHallBooking.DataAccess.Data.Models;
+
+using ExamHallBooking.Model.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExamHallBooking.DataAccess

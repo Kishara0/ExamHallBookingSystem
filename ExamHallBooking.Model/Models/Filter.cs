@@ -1,4 +1,4 @@
-﻿namespace ExamHallBooking.DataAccess.Data.Models
+﻿namespace ExamHallBooking.Model.Models
 {
     public class Filter
     {

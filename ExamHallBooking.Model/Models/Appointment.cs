@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ExamHallBooking.DataAccess.Data.Models
+namespace ExamHallBooking.Model.Models
 {
     public class Appointment
     {
